@@ -68,4 +68,4 @@ All code is written in Dart using Flutter SDK.
 This project is suitable for learning, showcasing Flutter UI, or as a base for more advanced calculators.
 
 👤 Author
-YV
+Sree Yagna Veena
