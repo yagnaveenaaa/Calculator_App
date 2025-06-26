@@ -1,71 +1,94 @@
-# Flutter Calculator App
+# 📱 Flutter Calculator App
 
-A simple calculator app built using Flutter. It supports basic arithmetic operations and runs on Android, iOS, web, Windows, macOS, and Linux using Flutter’s cross-platform capabilities.
+A **simple, cross-platform calculator app** built using **Flutter**. It supports basic arithmetic operations and runs on **Android, iOS, Web, Windows, macOS, and Linux** thanks to Flutter’s powerful cross-platform capabilities.
+
+---
 
 ## ✨ Features
 
-- Addition, subtraction, multiplication, division
-- Real-time result display
-- Clear (C) and backspace (⌫) functionality
-- Cross-platform support (mobile, web, desktop)
-- Clean and responsive UI
+- ➕ Addition, ➖ Subtraction, ✖️ Multiplication, ➗ Division
+- 🔄 Real-time result display
+- 🧹 Clear (`C`) and ⌫ Backspace functionality
+- 📱 Responsive & clean user interface
+- 🌐 Supports mobile, web, and desktop platforms
+- 💡 Beginner-friendly code and layout
 
-## 📁 Project Structure
+---
 
-Calculator_App/
-├── lib/
-│ ├── button_values.dart # Button labels and logic mapping
-│ ├── calculator_screen.dart # UI layout and button handling
-│ └── main.dart # App entry point
-├── android/ # Android platform code
-├── ios/ # iOS platform code
-├── linux/ # Linux platform code
-├── macos/ # macOS platform code
-├── windows/ # Windows platform code
-├── web/ # Web platform code
-├── test/ # Unit tests
-├── pubspec.yaml # Dependencies and assets
-├── pubspec.lock # Locked package versions
-├── analysis_options.yaml # Linting rules
-├── .gitignore # Git ignore settings
-├── .metadata # Flutter metadata
-└── README.md # Project documentation
+## 🧰 Installation
 
-markdown
-Copy
-Edit
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Flutter SDK installed  
-  ([Install Flutter](https://docs.flutter.dev/get-started/install))
-- Code editor like VS Code or Android Studio
-
-### Running the App
+### 1. Clone the Repository
 
 ```bash
-flutter pub get
-flutter run
-You can select a device or target like Android emulator, Chrome (for web), or desktop.
+git clone https://github.com/yagnaveenaaa/Calculator_App.git
+cd Calculator_App
 
-Build APK (for Android)
+2. Install Dependencies
+bash
+Copy
+Edit
+flutter pub get
+
+3. Run the App
+bash
+Copy
+Edit
+flutter run
+
+Choose your preferred platform: Android emulator, iOS simulator, web browser, or desktop environment.
+
+📦 Build APK (Android)
+To build the app for Android as a release APK:
+
 bash
 Copy
 Edit
 flutter build apk --release
-The APK will be generated at:
+The APK file will be located at:
 
 swift
 Copy
 Edit
 build/app/outputs/flutter-apk/app-release.apk
 
-📌 Notes
-All code is written in Dart using Flutter SDK.
 
-This project is suitable for learning, showcasing Flutter UI, or as a base for more advanced calculators.
+📁 Project Structure
+bash
+Copy
+Edit
+
+Calculator_App/
+├── lib/
+│   ├── button_values.dart        # Calculator button labels and values
+│   ├── calculator_screen.dart    # UI and interaction logic
+│   └── main.dart                 # Main app entry point
+├── android/                      # Android platform-specific code
+├── ios/                          # iOS platform-specific code
+├── linux/                        # Linux platform-specific code
+├── macos/                        # macOS platform-specific code
+├── windows/                      # Windows platform-specific code
+├── web/                          # Web platform code
+├── test/                         # Unit and widget tests
+├── pubspec.yaml                  # Project dependencies and assets
+├── analysis_options.yaml         # Dart analysis/linting configuration
+├── .gitignore                    # Files ignored by Git
+└── README.md                     # This file
+🧪 Testing
+Run all Flutter tests with:
+
+bash
+Copy
+Edit
+flutter test
+📌 Notes
+All code is written in Dart using the Flutter SDK
+
+Ideal for learning stateful widgets, layout building, and UI interactions
+
+Can be extended with features like dark mode, history, or scientific functions
 
 👤 Author
 Sree Yagna Veena
+
+🤝 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
