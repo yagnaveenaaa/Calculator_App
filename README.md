@@ -39,13 +39,12 @@ Choose your preferred platform: Android emulator, iOS simulator, web browser, or
 
 📦 Build APK (Android)
 To build the app for Android as a release APK:
-
 bash
 Copy
 Edit
 flutter build apk --release
-The APK file will be located at:
 
+The APK file will be located at:
 swift
 Copy
 Edit
@@ -73,13 +72,16 @@ Calculator_App/
 ├── analysis_options.yaml         # Dart analysis/linting configuration
 ├── .gitignore                    # Files ignored by Git
 └── README.md                     # This file
+
+
 🧪 Testing
 Run all Flutter tests with:
-
 bash
 Copy
 Edit
 flutter test
+
+
 📌 Notes
 All code is written in Dart using the Flutter SDK
 
